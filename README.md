@@ -9,7 +9,15 @@ The backend where user information is saved can be found [here](https://gitlab.c
 
 ![screenshot](/public/screenshot-2024-12-13-140848.png)
 
-**Installation and running** (for testing locally; one also needs API keys for Amadeus and Weather API in order to achieve full functionality):  
+## Used technologies and techniques besides APIs
+
+* Javascript (React & React-Router)
+* Tailwind (for Styling)
+* Scrum development model
+
+## Installation and running 
+
+(For testing locally; one also needs API keys for Amadeus and Weather API in order to achieve full functionality):  
 
 - Clone the project
 - `npm install`
