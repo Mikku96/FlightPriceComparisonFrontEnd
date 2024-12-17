@@ -1,4 +1,6 @@
-# Price Comparison Frontend
+# Price Comparison Frontend - A three week Scrum project
+
+Made during Buutti's Web-dev Front End course. Check out [my selected few works](https://github.com/Mikku96/Front-End-WebDev-Assignments) from the course, or a former more free-form one week [group project](https://github.com/Mikku96/ForumFrontEnd).
 
 ## Description
 React based Frontend utilizing [Amadeus](https://developers.amadeus.com/self-service/category/flights/api-doc/flight-offers-search)
