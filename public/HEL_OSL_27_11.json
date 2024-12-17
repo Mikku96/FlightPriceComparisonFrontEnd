@@ -1,0 +1,2232 @@
+[
+{
+    "type": "flight-offer",
+    "id": "1",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 2,
+    "itineraries": [
+    {
+        "duration": "PT1H35M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T14:10:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-27T14:45:00"
+            },
+            "carrierCode": "DY",
+            "number": "1191",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "DY"
+            },
+            "duration": "PT1H35M",
+            "id": "8",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "54.72",
+    "base": "37.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "54.72",
+    "additionalServices": [
+        {
+        "amount": "17.00",
+        "type": "CHECKED_BAGS"
+        }
+    ]
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "DY"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "54.72",
+        "base": "37.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "8",
+            "cabin": "ECONOMY",
+            "fareBasis": "XLF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "X",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "INTERNET ACCESS",
+                "isChargeable": false,
+                "amenityType": "ENTERTAINMENT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "2",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 6,
+    "itineraries": [
+    {
+        "duration": "PT2H50M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T16:40:00"
+            },
+            "arrival": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-27T16:40:00"
+            },
+            "carrierCode": "D8",
+            "number": "2612",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "13",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-27T17:30:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-27T18:30:00"
+            },
+            "carrierCode": "DY",
+            "number": "819",
+            "aircraft": {
+            "code": "7M8"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "14",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "82.45",
+    "base": "58.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "82.45"
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "DY"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "82.45",
+        "base": "58.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "13",
+            "cabin": "ECONOMY",
+            "fareBasis": "QCALF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "Q",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "UNDERSEAT CARRY ON UP TO 88CM",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "14",
+            "cabin": "ECONOMY",
+            "fareBasis": "XLF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "X",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "INTERNET ACCESS",
+                "isChargeable": false,
+                "amenityType": "ENTERTAINMENT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "3",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 6,
+    "itineraries": [
+    {
+        "duration": "PT3H50M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T16:40:00"
+            },
+            "arrival": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-27T16:40:00"
+            },
+            "carrierCode": "D8",
+            "number": "2612",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "15",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-27T18:30:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-27T19:30:00"
+            },
+            "carrierCode": "DY",
+            "number": "821",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "DY"
+            },
+            "duration": "PT1H",
+            "id": "16",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "82.45",
+    "base": "58.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "82.45"
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "DY"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "82.45",
+        "base": "58.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "15",
+            "cabin": "ECONOMY",
+            "fareBasis": "QCALF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "Q",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "UNDERSEAT CARRY ON UP TO 88CM",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "16",
+            "cabin": "ECONOMY",
+            "fareBasis": "XLF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "X",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "INTERNET ACCESS",
+                "isChargeable": false,
+                "amenityType": "ENTERTAINMENT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "4",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT13H15M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T19:45:00"
+            },
+            "arrival": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-27T19:45:00"
+            },
+            "carrierCode": "D8",
+            "number": "2614",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "1",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-28T07:00:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-28T08:00:00"
+            },
+            "carrierCode": "DY",
+            "number": "801",
+            "aircraft": {
+            "code": "7M8"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "2",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "82.45",
+    "base": "58.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "82.45"
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "DY"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "82.45",
+        "base": "58.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "1",
+            "cabin": "ECONOMY",
+            "fareBasis": "QCALF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "Q",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "UNDERSEAT CARRY ON UP TO 88CM",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "2",
+            "cabin": "ECONOMY",
+            "fareBasis": "XLF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "X",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "INTERNET ACCESS",
+                "isChargeable": false,
+                "amenityType": "ENTERTAINMENT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "5",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT23H45M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T19:45:00"
+            },
+            "arrival": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-27T19:45:00"
+            },
+            "carrierCode": "D8",
+            "number": "2614",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "11",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "ARN",
+            "terminal": "5",
+            "at": "2024-11-28T17:30:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-28T18:30:00"
+            },
+            "carrierCode": "D8",
+            "number": "4121",
+            "aircraft": {
+            "code": "73H"
+            },
+            "operating": {
+            "carrierCode": "D8"
+            },
+            "duration": "PT1H",
+            "id": "12",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "82.45",
+    "base": "58.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "82.45",
+    "additionalServices": [
+        {
+        "amount": "34.00",
+        "type": "CHECKED_BAGS"
+        }
+    ]
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "DY"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "82.45",
+        "base": "58.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "11",
+            "cabin": "ECONOMY",
+            "fareBasis": "QCALF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "Q",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "UNDERSEAT CARRY ON UP TO 88CM",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "12",
+            "cabin": "ECONOMY",
+            "fareBasis": "XLF",
+            "brandedFare": "LOWFARE",
+            "brandedFareLabel": "LOWFARE",
+            "class": "X",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "CHARGEABLE BAG 1",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHARGEABLE BAG 2",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRE RESERVED SEAT ASSIGNMENT",
+                "isChargeable": true,
+                "amenityType": "PRE_RESERVED_SEAT",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "FAST TRACK WHERE OFFERED",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "OVERHEAD CABIN BAG W PRIO BRD",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHANGEABLE TICKET",
+                "isChargeable": true,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "UNDERSEAT CARRY ON UP TO 88CM",
+                "isChargeable": false,
+                "amenityType": "BRANDED_FARES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "6",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT4H40M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T15:30:00"
+            },
+            "arrival": {
+            "iataCode": "RIX",
+            "at": "2024-11-27T16:30:00"
+            },
+            "carrierCode": "BT",
+            "number": "306",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H",
+            "id": "9",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "RIX",
+            "at": "2024-11-27T18:25:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-27T19:10:00"
+            },
+            "carrierCode": "BT",
+            "number": "153",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H45M",
+            "id": "10",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "84.80",
+    "base": "29.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "84.80",
+    "additionalServices": [
+        {
+        "amount": "30.00",
+        "type": "CHECKED_BAGS"
+        }
+    ]
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "BT"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "84.80",
+        "base": "29.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "9",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "10",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "7",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT11H25M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T21:20:00"
+            },
+            "arrival": {
+            "iataCode": "RIX",
+            "at": "2024-11-27T22:20:00"
+            },
+            "carrierCode": "BT",
+            "number": "308",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H",
+            "id": "5",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "RIX",
+            "at": "2024-11-28T07:00:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-28T07:45:00"
+            },
+            "carrierCode": "BT",
+            "number": "151",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H45M",
+            "id": "6",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "84.80",
+    "base": "29.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "84.80",
+    "additionalServices": [
+        {
+        "amount": "30.00",
+        "type": "CHECKED_BAGS"
+        }
+    ]
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "BT"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "84.80",
+        "base": "29.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "5",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "6",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "8",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT17H15M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T15:30:00"
+            },
+            "arrival": {
+            "iataCode": "RIX",
+            "at": "2024-11-27T16:30:00"
+            },
+            "carrierCode": "BT",
+            "number": "306",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H",
+            "id": "3",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "RIX",
+            "at": "2024-11-28T07:00:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-28T07:45:00"
+            },
+            "carrierCode": "BT",
+            "number": "151",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H45M",
+            "id": "4",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "84.80",
+    "base": "29.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "84.80",
+    "additionalServices": [
+        {
+        "amount": "30.00",
+        "type": "CHECKED_BAGS"
+        }
+    ]
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "BT"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "84.80",
+        "base": "29.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "3",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "4",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "9",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT22H50M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T21:20:00"
+            },
+            "arrival": {
+            "iataCode": "RIX",
+            "at": "2024-11-27T22:20:00"
+            },
+            "carrierCode": "BT",
+            "number": "308",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H",
+            "id": "17",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        },
+        {
+            "departure": {
+            "iataCode": "RIX",
+            "at": "2024-11-28T18:25:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-28T19:10:00"
+            },
+            "carrierCode": "BT",
+            "number": "153",
+            "aircraft": {
+            "code": "223"
+            },
+            "operating": {
+            "carrierCode": "BT"
+            },
+            "duration": "PT1H45M",
+            "id": "18",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "84.80",
+    "base": "29.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "84.80",
+    "additionalServices": [
+        {
+        "amount": "30.00",
+        "type": "CHECKED_BAGS"
+        }
+    ]
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": false
+    },
+    "validatingAirlineCodes": [
+    "BT"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "84.80",
+        "base": "29.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "17",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        },
+        {
+            "segmentId": "18",
+            "cabin": "ECONOMY",
+            "fareBasis": "KFI3BAS",
+            "brandedFare": "BASIC",
+            "brandedFareLabel": "ECONOMY BASIC",
+            "class": "K",
+            "includedCheckedBags": {
+            "quantity": 0
+            },
+            "amenities": [
+            {
+                "description": "SPORTING EQUIPMENT",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "1 CHECKED BAG UP TO 23 KG",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "12 KG HAND LUGGAGE",
+                "isChargeable": true,
+                "amenityType": "BAGGAGE",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "PRIORITY CHECKIN AND BAG DROP",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CHECKIN FEE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "NAME CHANGE",
+                "isChargeable": true,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+},
+{
+    "type": "flight-offer",
+    "id": "10",
+    "source": "GDS",
+    "instantTicketingRequired": false,
+    "nonHomogeneous": false,
+    "oneWay": false,
+    "isUpsellOffer": false,
+    "lastTicketingDate": "2024-11-27",
+    "lastTicketingDateTime": "2024-11-27",
+    "numberOfBookableSeats": 9,
+    "itineraries": [
+    {
+        "duration": "PT1H30M",
+        "segments": [
+        {
+            "departure": {
+            "iataCode": "HEL",
+            "at": "2024-11-27T12:00:00"
+            },
+            "arrival": {
+            "iataCode": "OSL",
+            "at": "2024-11-27T12:30:00"
+            },
+            "carrierCode": "AY",
+            "number": "913",
+            "aircraft": {
+            "code": "319"
+            },
+            "operating": {
+            "carrierCode": "AY"
+            },
+            "duration": "PT1H30M",
+            "id": "7",
+            "numberOfStops": 0,
+            "blacklistedInEU": false
+        }
+        ]
+    }
+    ],
+    "price": {
+    "currency": "EUR",
+    "total": "119.72",
+    "base": "87.00",
+    "fees": [
+        {
+        "amount": "0.00",
+        "type": "SUPPLIER"
+        },
+        {
+        "amount": "0.00",
+        "type": "TICKETING"
+        }
+    ],
+    "grandTotal": "119.72"
+    },
+    "pricingOptions": {
+    "fareType": [
+        "PUBLISHED"
+    ],
+    "includedCheckedBagsOnly": true
+    },
+    "validatingAirlineCodes": [
+    "AY"
+    ],
+    "travelerPricings": [
+    {
+        "travelerId": "1",
+        "fareOption": "STANDARD",
+        "travelerType": "ADULT",
+        "price": {
+        "currency": "EUR",
+        "total": "119.72",
+        "base": "87.00"
+        },
+        "fareDetailsBySegment": [
+        {
+            "segmentId": "7",
+            "cabin": "ECONOMY",
+            "fareBasis": "ZNN0S9CZ",
+            "brandedFare": "ECLASSIC",
+            "brandedFareLabel": "ECONOMY CLASSIC",
+            "class": "Z",
+            "includedCheckedBags": {
+            "quantity": 1
+            },
+            "amenities": [
+            {
+                "description": "NON ALCOHOLIC DRINK",
+                "isChargeable": false,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "MEAL AND BEVERAGE",
+                "isChargeable": true,
+                "amenityType": "MEAL",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            },
+            {
+                "description": "CARRY ON BAGGAGE",
+                "isChargeable": false,
+                "amenityType": "TRAVEL_SERVICES",
+                "amenityProvider": {
+                "name": "BrandedFare"
+                }
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
+]

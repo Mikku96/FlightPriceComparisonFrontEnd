@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(98, 103, 143);
+  background:
+  radial-gradient(
+    farthest-corner at 0px 400px,
+    rgb(98, 103, 143) 30%,
+    rgb(195, 112, 24) 100%
+  );
+}
+
+div {
+  font-family: "Courier New";
+}
+
+p {
+  font-family: "Courier New";
+}
